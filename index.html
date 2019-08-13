@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Bootstrap Portfolio</title>
+
+  <link href="reset.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js">
+  </script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
+    integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+
+</head>
+
+<body>
+
+  <header class="myNav">
+    <nav class="navbar navbar-expand-lg navbar-blue bg-blue dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01" id="about">
+        <a class="navbar-brand color name" href="#about">Taylor Horton</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link color move" href="">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color move" href="#port">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color move" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+          <span>
+            <a href="https://www.linkedin.com/in/taylor-horton-12394a96/"> <i
+                class="fab fa-linkedin link data-fa-transform="> </i></a>
+          </span>
+
+          <span>
+            <a href="https://github.com/Tphorton14"><i class="fab fa-github-square git"></i></a>
+          </span>
+        </ul>
+      </div>
+    </nav>
+    </div>
+  </header>
+
+
+  <container>
+    <div class="backgroundOne">
+      <div class="container">
+
+
+        <div class="row rows">
+          <div class="col">
+            <p id="me" width=100%>
+              <strong> About Me</strong>
+            </p>
+
+
+            <img
+              src="https://videohive.img.customer.envatousercontent.com/files/243726312/prev_1080.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=2139bf1fb6a15d44da4a9913131fd620"
+              style="border: 0.75px solid white" width=275px height=250px alt="80's photos" />
+
+            <div class="paragraph">
+              <p>
+                Hi My name is Taylor Horton. I was born and raised in the metro part of Atlanta, Ga. In, 2015 I
+                graduated
+                from King University with a BS in Political Science. Recently, I decided to go back to
+                school to pursue a computer engineering degree from Georgia Tech. This is something that has interests
+                me,
+                and I am very excited to be apart of such a cool class.
+                Please continue to follow my progress through this bootcamp! I promise my work will not disappoint you.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <hr class="height" id="two">
+    </div>
+    <div class="backgroundTwo">
+      <div id="port">
+        <p width=100%>
+          <strong>Portfolio</strong>
+        </p>
+      </div>
+
+      <container class="new">
+        <div class="row justify-content-center  closer">
+          <div class="column"><a>Project 1</a></div>
+          <div class="column">Column 2</div>
+        </div>
+        <div class="row justify-content-center closer">
+          <div class="column">Column 3</div>
+          <div class="column">Column 4</div>
+        </div>
+
+        <div class="row justify-content-center closer">
+          <div class="column">Column5</div>
+        </div>
+
+
+        <hr class="height">
+
+    </div>
+
+    <form id="contact" class="contact">
+      <div id="con">
+        <p>
+          <strong>Contact Me</strong>
+        </p>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Name</label>
+        <input class="form-control" id="exampleInputPassword1" placeholder="Name Here">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Message</label>
+        <input type="message" class="form-control" id="exampleInputPassword1" />
+      </div>
+      <button type="submit" class="btn btn-primary submit">Submit</button>
+    </form>
+
+  </container>
+
+
+
+  <footer>
+    <div class="foot">
+
+      <div class="card-body">
+        <p class="copyRight">Copy Right</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

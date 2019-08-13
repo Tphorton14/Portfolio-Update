@@ -10,10 +10,12 @@ i {
 }
 
 #port {
-    margin-top: 200px;
-    padding-bottom: 10px;
+    margin-top: 200px solid black;
+    padding-top: 60px;
     font-size: 35px;
     text-align: center;
+    background: black;
+    color: white;
 }
 
 .height {
@@ -180,7 +182,8 @@ a:hover {
     width: 250px;
     border: solid yellow;
     align-content: center;
-    
+    color: white;
+    text-align: center;
 }
 
 
